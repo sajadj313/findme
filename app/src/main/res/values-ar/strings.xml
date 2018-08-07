@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FindMe</string>
+    <string name="Registration_Activity_Page_Title">تسجيل</string>
+    <string name="Registration_Name_Field_Title">اسمك</string>
+    <string name="Registration_App_Language_Field_Title">لغة التطبيق</string>
+    <string name="Registration_Languages_Spoken_Title">اللغات التي يمكنني التحدث بها</string>
+    <string name="Registration_Phone_Number_Title">رقم الهاتف</string>
+    <string name="Add_Guard_Success">تم حفظ معلوماتك بنجاح</string>
+    <string name="Main_Menu_Item1">إعدادات</string>
+    <string name="Main_Menu_Item2">حول</string>
+    <string name="Main_Screen_Button_Lost_text">تقرير فقدت</string>
+    <string name="Main_Screen_Button_Lost_voice">صوت فقدت</string>
+    <string name="Main_Send_Broadcast">إرسال البث</string>
+</resources>

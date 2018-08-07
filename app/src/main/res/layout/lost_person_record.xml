@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="?attr/selectableItemBackground">
+    <TextView
+        android:id="@+id/txtPersonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:id="@+id/record_img1"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/user"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/record_img1"
+        android:layout_toLeftOf="@+id/main_btn_found_container">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sajad Jaward"
+            android:layout_toRightOf="@+id/img1"
+            android:textSize="25dp"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="is at station 2"
+            android:layout_toRightOf="@+id/img1"
+            android:layout_below="@+id/txt1"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_btn_found_container"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btnFound"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/found_small"/>
+
+        <ImageView
+            android:id="@+id/btnNotFound"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/not_found_small"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

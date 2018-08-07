@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What do you mean?"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"/>
+    
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:entries="@array/station_entries"></Spinner>
+
+</LinearLayout>

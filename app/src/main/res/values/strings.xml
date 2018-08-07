@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FindMe</string>
+    <string name="app_name2"><html><b>Find</b>Me <small>v1.0</small></html></string>
+    <string name="Registration_Activity_Page_Title">Register</string>
+    <string name="Registration_Name_Field_Title">Your Name</string>
+    <string name="Registration_App_Language_Field_Title">App Language</string>
+    <string name="Registration_Languages_Spoken_Title">Languages that I can speak</string>
+    <string name="Registration_Phone_Number_Title">Phone number</string>
+    <string name="Add_Guard_Success">Your information saved successfully</string>
+    <string name="Main_Menu_Item1">Settings</string>
+    <string name="Main_Menu_Item2">About</string>
+    <string name="Main_Screen_Button_Lost_text">Report Lost</string>
+    <string name="Main_Screen_Button_Lost_voice">Voice Lost</string>
+    <array name="station_entries">
+        <item>Station 1</item>
+        <item>Station 2</item>
+        <item>Station 3</item>
+    </array>
+    <string name="Main_Send_Broadcast">Send Broadcast</string>
+</resources>

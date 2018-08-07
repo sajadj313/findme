@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    android:padding="5dp">
+
+    <!--<ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/app_logo"
+        android:scaleType="fitCenter"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan QR code or fill in details"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="5dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <SurfaceView
+            android:id="@+id/lost_person_camera"
+            android:layout_width="144dp"
+            android:layout_height="176dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person Name" />
+
+            <EditText
+                android:id="@+id/lost_person_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Station Name"/>
+
+            <Spinner
+                android:id="@+id/lost_person_station_name"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:entries="@array/station_entries"></Spinner>
+
+            <!--<EditText
+                android:id="@+id/lost_person_station_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emergency Contact Number"/>
+
+            <EditText
+                android:id="@+id/lost_person_contact_person"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country"/>
+
+            <EditText
+                android:id="@+id/lost_person_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Group Name"/>
+
+            <EditText
+                android:id="@+id/lost_person_group_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <Button
+        android:id="@+id/btn_lost_person_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="done"
+        android:background="@android:color/holo_green_dark"/>
+
+
+
+
+
+</LinearLayout>
